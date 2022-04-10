@@ -1,0 +1,78 @@
+html{
+    font-size: 62.5%;
+}
+h3{
+    font-size: 2rem;
+}
+button{
+    background-color: olivedrab;
+    border:none;
+    color:#fff;
+    padding:1rem 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+button:last-of-type{
+    margin-right: 0;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    text-align: center;
+}
+.grid{
+    border:1px solid black;
+    height: 36rem;
+    width: 36rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+
+.grid div{
+    height: 4rem;
+    width:4rem;
+}
+
+.ending-block{
+    background-color: red;
+}
+
+.starting-block{
+    background-color: blue;
+}
+
+/* .log-left, .log-right{
+background-color: lightblue;
+} */
+
+/* .car-left, .car-right{
+    background-color: lightgrey;
+} */
+
+
+.l1, .l2, .l3{
+    background-color: brown;
+}
+
+.l4, .l5{
+    background-color: lightblue!important;
+}
+
+.c1{
+    background-color: black!important;
+}
+
+.c2,.c3{
+    background-color: lightgrey;
+}
+.frog{
+    background-color: green;
+}
+
+@media only screen and (max-width:500px) {
+    html{
+        font-size: 55%;
+    }
+}
